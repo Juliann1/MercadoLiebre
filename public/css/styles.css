@@ -298,12 +298,6 @@ p {
 }
 
 @media (min-width: 361px) {
-    .nav {
-        display: flex;
-
-        justify-content: space-between;
-    }
-
     .products {
         display: flex;
         flex-wrap: wrap;
@@ -322,6 +316,10 @@ p {
 }
 
 @media (min-width: 426px) {
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    }
     .burger-menu {
         display: none;
     }
