@@ -298,9 +298,6 @@ p {
 }
 
 @media (min-width: 361px) {
-    .burger-menu {
-        display: none;
-    }
     .nav {
         display: flex;
 
@@ -321,6 +318,12 @@ p {
     }
     .product--discount {
         width: 35%;
+    }
+}
+
+@media (min-width: 426px) {
+    .burger-menu {
+        display: none;
     }
 }
 
